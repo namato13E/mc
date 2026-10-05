@@ -1,8 +1,0 @@
-term.clear()
-term.setCursorPos(1,1)
-textutils.slowPrint(">Lancement de la Procedure d affichage")
-sleep(1)
-textutils.slowPrint(">La procedure est un succes, afficher a l'\écran")
-term.write("<---Pour desactiver")
-term.setCursorPos(1,4)
-shell.run("monitor right atime")
